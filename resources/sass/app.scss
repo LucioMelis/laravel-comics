@@ -1,8 +1,8 @@
 //
 /////////////// HEADER
 .container-header {
-    width: $container-principal;
-    margin: $margin-container;
+    width: 70%;
+    margin: auto;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -21,13 +21,13 @@
 
                 a {
                     text-decoration: none;
-                    color: $color-dark;
+                    color: black;
                     font-weight: bold;
                     padding-bottom: 50px;
 
                     &:hover {
-                        color: $color-primary;
-                        border-bottom: 5px solid $color-primary;
+                        color: #047ff7;
+                        border-bottom: 5px solid #047ff7;
                     }
                 }
             }
@@ -37,13 +37,13 @@
 
 ///////////////////// MAIN
 .container-bg_main-top {
-    background-image: url("@/assets/jumbotron.jpg");
+    background-image: url("/images/jumbotron.jpg");
     height: 380px;
     background-size: cover;
     position: relative;
 
     .label-main-top {
-        background-color: $color-primary;
+        background-color: #047ff7;
         padding: 10px 20px;
         color: white;
         position: absolute;
@@ -53,11 +53,11 @@
 }
 
 .container-bg-main-bottom {
-    background-color: $color-dark;
+    background-color: black;
 
     .content-dc-series {
-        width: $container-principal;
-        margin: $margin-container;
+        width: 70%;
+        margin: auto;
         padding: 30px 0;
         display: flex;
         flex-wrap: wrap;
@@ -71,7 +71,7 @@
         button {
             color: white;
             font-weight: bold;
-            background-color: $color-primary;
+            background-color: #047ff7;
             padding: 10px 30px;
             margin: 20px 0;
         }
@@ -83,8 +83,8 @@
     background-color: #0282f9;
 
     .container-footer-top {
-        width: $container-principal;
-        margin: $margin-container;
+        width: 70%;
+        margin: auto;
         display: flex;
         justify-content: space-around;
         color: white;
@@ -111,13 +111,13 @@
 }
 
 .footer-center {
-    background-image: url("../assets/footer-bg.jpg");
+    background-image: url("/images/footer-bg.jpg");
     background-size: cover;
 
     .container-footer-center {
         display: flex;
-        width: $container-principal;
-        margin: $margin-container;
+        width: 70%;
+        margin: auto;
 
         .container-list {
             display: flex;
@@ -132,7 +132,7 @@
 
             li {
                 list-style-type: none;
-                color: $text-color;
+                color: #6e7377;
                 padding: 2px 0;
                 font-size: 11px;
             }
@@ -140,7 +140,7 @@
     }
 
     .container-background {
-        background-image: url("../assets/dc-logo-bg.png");
+        background-image: url("/images/dc-logo-bg.png");
         width: 50%;
         background-repeat: no-repeat;
         background-position: center right;
@@ -149,20 +149,20 @@
 }
 
 .footer-bottom {
-    background-color: $color-bg-grey;
+    background-color: #303030;
 
     .container-footer-bottom {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: $container-principal;
-        margin: $margin-container;
+        width: 70%;
+        margin: auto;
         padding: 25px 0;
 
         .button-footer button {
             padding: 10px;
-            border: 2px solid $color-primary;
-            background-color: $color-bg-grey;
+            border: 2px solid #047ff7;
+            background-color: #303030;
             color: white;
         }
 
@@ -172,7 +172,7 @@
             column-gap: 15px;
 
             h4 {
-                color: $color-primary;
+                color: #047ff7;
             }
 
             img {

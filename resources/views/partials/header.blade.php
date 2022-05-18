@@ -1,7 +1,7 @@
 <header>
     <div class="container-header">
         <div class="container-header-logo">
-            <img src="../assets/dc-logo.png" alt="Dc-Logo" />
+            <img src="/images/dc-logo.png" alt="Dc-Logo" />
         </div>
         <div class="container-nav">
             <ul>
