@@ -1,4 +1,4 @@
-@extends('app')
-@section('main')
-    <h1>Ciao</h1>
+@extends('layout')
+@section('main_content')
+    @include('partials/main')
 @endsection
