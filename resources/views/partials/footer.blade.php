@@ -5,23 +5,23 @@
         <div class="container-footer-top">
             <!-- container singola card  -->
             <div class="container-card">
-                <img src="../assets/buy-comics-digital-comics.png" alt="digi-comics" />
+                <img src="/images/buy-comics-digital-comics.png" alt="digi-comics" />
                 <p>DIGITAL COMICS</p>
             </div>
             <div class="container-card">
-                <img src="../assets/buy-comics-merchandise.png" alt="merchandise" />
+                <img src="/images/buy-comics-merchandise.png" alt="merchandise" />
                 <p>DC MERCHANDISE</p>
             </div>
             <div class="container-card">
-                <img src="../assets/buy-comics-subscriptions.png" alt="subscriptions" />
+                <img src="/images/buy-comics-subscriptions.png" alt="subscriptions" />
                 <p>SUBSCRIPTION</p>
             </div>
             <div class="container-card">
-                <img src="../assets/buy-comics-shop-locator.png" alt="locator" />
+                <img src="/images/buy-comics-shop-locator.png" alt="locator" />
                 <p>COMIC SHOP LOCATOR</p>
             </div>
             <div class="container-card">
-                <img src="../assets/buy-dc-power-visa.svg" alt="power-visa" />
+                <img src="/images/buy-dc-power-visa.svg" alt="power-visa" />
                 <p>DC POWER VISA</p>
             </div>
         </div>
@@ -95,19 +95,19 @@
             <div class="follow-footer">
                 <h4>FOLLOW US</h4>
                 <div>
-                    <img src="../assets/footer-facebook.png" alt="Facebook" />
+                    <img src="/images/footer-facebook.png" alt="Facebook" />
                 </div>
                 <div>
-                    <img src="../assets/footer-twitter.png" alt="Twitter" />
+                    <img src="/images/footer-twitter.png" alt="Twitter" />
                 </div>
                 <div>
-                    <img src="../assets/footer-youtube.png" alt="YouTube" />
+                    <img src="/images/footer-youtube.png" alt="YouTube" />
                 </div>
                 <div>
-                    <img src="../assets/footer-pinterest.png" alt="Pinterest" />
+                    <img src="/images/footer-pinterest.png" alt="Pinterest" />
                 </div>
                 <div>
-                    <img src="../assets/footer-periscope.png" alt="Periscope" />
+                    <img src="/images/footer-periscope.png" alt="Periscope" />
                 </div>
             </div>
         </div>
