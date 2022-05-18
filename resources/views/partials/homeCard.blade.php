@@ -1,10 +1,10 @@
 @extends('partials/layout')
 
 @section('title')
-    DC-Comics Home
+    DC-Comics Card
 @endsection
 
 @section('main_content')
     {{-- MAIN HOME PAGE --}}
-    @include('partials/main')
+    @include('partials/mainCard')
 @endsection
