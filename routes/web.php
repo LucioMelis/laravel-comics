@@ -17,3 +17,11 @@ Route::get('/', function () {
     $fumetti = @include('../config/comics.php');
     return view('home', ["comics" => $fumetti ]);
 });
+
+Route::get('singleCard', function(){
+    $fumetti = @include('../config/comics.php');
+    // Ho fatto un paio di prove per riuscire a prendere l'index
+    // dal ciclo della home, e passarglielo qui nel return,
+    // ma non ci sono riuscito =(
+    return view('partials/homeCard',["comics"=> $fumetti[0]]);
+});

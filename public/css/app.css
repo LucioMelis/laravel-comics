@@ -1,207 +1,216 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.titolo {
+  color: white;
 }
 
 .container-header {
-    width: 70%;
-    margin: auto;
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
+  width: 70%;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 .container-header .container-nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .container-header .container-nav ul {
-    display: flex;
-    -moz-column-gap: 20px;
-    column-gap: 20px;
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
 }
 
 .container-header .container-nav ul li {
-    list-style-type: none;
-    cursor: pointer;
+  list-style-type: none;
+  cursor: pointer;
 }
 
 .container-header .container-nav ul li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    padding-bottom: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 50px;
 }
 
 .container-header .container-nav ul li a:hover {
-    color: #047ff7;
-    border-bottom: 5px solid #047ff7;
+  color: #047ff7;
+  border-bottom: 5px solid #047ff7;
 }
 
 .container-bg_main-top {
-    background-image: url("/images/jumbotron.jpg");
-    height: 380px;
-    background-size: cover;
-    position: relative;
+  background-image: url("/images/jumbotron.jpg");
+  height: 380px;
+  background-size: cover;
+  position: relative;
 }
 
 .container-bg_main-top .label-main-top {
-    background-color: #047ff7;
-    padding: 10px 20px;
-    color: white;
-    position: absolute;
-    bottom: -20px;
-    left: 200px;
+  background-color: #047ff7;
+  padding: 10px 20px;
+  color: white;
+  position: absolute;
+  bottom: -20px;
+  left: 200px;
 }
 
 .container-bg-main-bottom {
-    background-color: black;
+  background-color: black;
 }
 
 .container-bg-main-bottom .content-dc-series {
-    width: 70%;
-    margin: auto;
-    padding: 30px 0;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 15px;
+  width: 70%;
+  margin: auto;
+  padding: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
 .container-bg-main-bottom .container-button {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .container-bg-main-bottom .container-button button {
-    color: white;
-    font-weight: bold;
-    background-color: #047ff7;
-    padding: 10px 30px;
-    margin: 20px 0;
+  color: white;
+  font-weight: bold;
+  background-color: #047ff7;
+  padding: 10px 30px;
+  margin: 20px 0;
 }
 
 .card-fumetto {
-    width: calc(16.6666666667% - 12.5px);
+  width: calc(16.6666666667% - 12.5px);
 }
 
 .card-fumetto img {
-    width: 100%;
+  width: 100%;
 }
 
 .card-fumetto p {
-    color: white;
-    font-size: 12px;
-    padding: 10px 0;
+  color: white;
+  font-size: 12px;
+  padding: 10px 0;
 }
 
 .footer-top {
-    background-color: #0282f9;
+  background-color: #0282f9;
 }
 
 .footer-top .container-footer-top {
-    width: 70%;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    color: white;
-    padding: 50px 0;
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  padding: 50px 0;
 }
 
 .footer-top .container-footer-top div:last-child img {
-    width: 50px;
+  width: 50px;
 }
 
 .footer-top .container-footer-top .container-card {
-    display: flex;
-    align-items: center;
-    -moz-column-gap: 10px;
-    column-gap: 10px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
 }
 
 .footer-top .container-footer-top .container-card img {
-    height: 50px;
+  height: 50px;
 }
 
 .footer-top .container-footer-top .container-card p {
-    font-size: 11px;
+  font-size: 11px;
 }
 
 .footer-center {
-    background-image: url("/images/footer-bg.jpg");
-    background-size: cover;
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
 }
 
 .footer-center .container-footer-center {
-    display: flex;
-    width: 70%;
-    margin: auto;
+  display: flex;
+  width: 70%;
+  margin: auto;
 }
 
 .footer-center .container-footer-center .container-list {
-    display: flex;
-    -moz-column-gap: 40px;
-    column-gap: 40px;
-    padding: 30px 0;
-    width: 50%;
+  display: flex;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  padding: 30px 0;
+  width: 50%;
 }
 
 .footer-center .container-footer-center .container-list h4 {
-    padding: 15px 0;
-    color: white;
+  padding: 15px 0;
+  color: white;
 }
 
 .footer-center .container-footer-center .container-list li {
-    list-style-type: none;
-    color: #6e7377;
-    padding: 2px 0;
-    font-size: 11px;
+  list-style-type: none;
+  color: #6e7377;
+  padding: 2px 0;
+  font-size: 11px;
 }
 
 .footer-center .container-background {
-    background-image: url("/images/dc-logo-bg.png");
-    width: 50%;
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: 450px;
+  background-image: url("/images/dc-logo-bg.png");
+  width: 50%;
+  background-repeat: no-repeat;
+  background-position: center right;
+  background-size: 450px;
 }
 
 .footer-bottom {
-    background-color: #303030;
+  background-color: #303030;
 }
 
 .footer-bottom .container-footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 70%;
-    margin: auto;
-    padding: 25px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  padding: 25px 0;
 }
 
 .footer-bottom .container-footer-bottom .button-footer button {
-    padding: 10px;
-    border: 2px solid #047ff7;
-    background-color: #303030;
-    color: white;
+  padding: 10px;
+  border: 2px solid #047ff7;
+  background-color: #303030;
+  color: white;
 }
 
 .footer-bottom .container-footer-bottom .follow-footer {
-    display: flex;
-    align-items: center;
-    -moz-column-gap: 15px;
-    column-gap: 15px;
+  display: flex;
+  align-items: center;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
 }
 
 .footer-bottom .container-footer-bottom .follow-footer h4 {
-    color: #047ff7;
+  color: #047ff7;
 }
 
 .footer-bottom .container-footer-bottom .follow-footer img {
-    width: 25px;
+  width: 25px;
 }
+

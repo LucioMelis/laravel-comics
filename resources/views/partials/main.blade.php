@@ -8,8 +8,10 @@
         <div class="content-dc-series">
             @foreach ($comics as $comic)
                 <div class="card-fumetto">
-                    <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" />
-                    <p>{{ $comic['title'] }}</p>
+                    <a href="singleCard">
+                        <img src="{{ $comic['thumb'] }}" alt="{{ $comic['title'] }}" />
+                        <p>{{ $comic['title'] }}</p>
+                    </a>
                 </div>
             @endforeach
         </div>
