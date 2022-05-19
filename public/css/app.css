@@ -214,3 +214,56 @@ a {
   width: 25px;
 }
 
+.banner-card {
+  background-color: #047ff7;
+  height: 50px;
+}
+
+.banner-card div {
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.banner-card div img {
+  position: absolute;
+  left: 0;
+  bottom: -35px;
+}
+
+.container-bg-main-bottom-singleCard .content-dc-singleCard {
+  width: 60%;
+  margin: 0 auto;
+  padding: 50px 0;
+  display: flex;
+}
+
+.container-bg-main-bottom-singleCard .content-dc-singleCard .banner-price {
+  background-color: #55ba59;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.container-bg-main-bottom-singleCard .content-dc-singleCard .banner-price p {
+  color: #b2f996;
+  padding-left: 20px;
+}
+
+.container-bg-main-bottom-singleCard .content-dc-singleCard .banner-price span {
+  color: white;
+}
+
+.container-bg-main-bottom-singleCard .content-dc-singleCard .banner-price div {
+  display: flex;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  align-items: center;
+}
+
+.container-bg-main-bottom-singleCard .content-dc-singleCard .banner-price div .check {
+  border-left: 1px solid black;
+  padding: 15px 30px;
+}
+
