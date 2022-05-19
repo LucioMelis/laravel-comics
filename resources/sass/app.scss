@@ -215,6 +215,7 @@ a {
 }
 
 // MAINCARD
+
 .banner-card {
     background-color: #047ff7;
     height: 50px;
@@ -233,38 +234,113 @@ a {
 
 }
 
-.container-bg-main-bottom-singleCard {
-    .content-dc-singleCard {
+.descriptionCard {
+    .container {
+        padding: 3rem 0;
+        display: flex;
+        gap: 2rem;
         width: 60%;
         margin: 0 auto;
-        padding: 50px 0;
-        display: flex;
+    }
 
-        .banner-price {
-            background-color: #55ba59;
+    .blue-banner {
+        height: 3rem;
+        width: 100%;
+        background-color: #0282f9;
+        position: relative;
+
+        .active-series {
+            width: 9rem;
             display: flex;
-            align-items: center;
+            position: absolute;
+            bottom: 1rem;
+            padding: 0.1rem;
+            border-radius: 1px;
+            background-color: white;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .advertisement {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: flex-end;
+    }
+
+    .green-banner {
+        display: flex;
+        color: white;
+        font-size: 0.9rem;
+        margin: 1rem auto;
+        // padding: 0.5rem 1rem;
+        background-color: #55ba59;
+
+        .status {
+            display: flex;
             justify-content: space-between;
-            // padding: 15px 25px;
-            margin-top: 15px;
+            box-shadow: 1px 0 0 0 #acf488;
+            padding: 0.5rem 1rem;
+            flex-grow: 1;
+
+            span,
+            div {
+                color: #acf488;
+            }
+        }
+
+        .check-status {
+            padding: 0.5rem 1rem;
+        }
+    }
+
+    p.description {
+        font-size: 0.9rem;
+        color: #555554;
+    }
+
+    .more-infos {
+        box-shadow: 0 -1px 0 0 #d3d3d3;
+        background-color: #f6f6f6;
+
+        .talent,
+        .specs {
+            flex-basis: calc(50% - 1rem);
+        }
+
+        .talent a::after {
+            content: ", ";
+        }
+
+        .talent a:last-of-type::after {
+            display: none;
+        }
+
+        h3 {
+            padding: 0 0 1.5rem;
+            box-shadow: 0 1px 0 0 #d3d3d3;
+        }
+
+        .info {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0.5rem 0;
+            box-shadow: 0 1px 0 0 #d3d3d3;
+
+            h5 {
+                flex-basis: 30%;
+            }
 
             p {
-                color: #b2f996;
-                padding-left: 20px;
-            }
+                flex-basis: 70%;
+                font-size: 0.8rem;
 
-            span {
-                color: white;
-            }
-
-            div {
-                display: flex;
-                column-gap: 20px;
-                align-items: center;
-
-                .check {
-                    border-left: 1px solid black;
-                    padding: 15px 30px;
+                a {
+                    color: #0282f9;
+                    text-decoration: none;
                 }
             }
         }
